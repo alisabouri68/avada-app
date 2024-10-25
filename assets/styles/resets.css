@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+:root{
+
+    --x1x1:#000000;
+    --x2x2:#ffffff;
+    --x2x4:#1e73be;
+    --x2x3:#1f2326;
+    --one:#1ebeb8;
+    --two:#1ebe68;
+    --three:#7a3f9d;
+    --foure:#9c407b;
+    --five:#eb7a24;
+    --six:#272c30;
+    scroll-behavior: smooth;
+   --seven: #141719;
+}
+@font-face {
+    font-family: abel;
+    src: url('../fonts/Abel-Regular.ttf');
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+body{
+    font-family: abel;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
